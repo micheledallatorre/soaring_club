@@ -166,7 +166,7 @@ class MemberType(models.Model):
 
 class Member(models.Model):
     """
-    Member rappresent every person that may flight and pay for service.
+    A member represent every person who may flight and pay for service.
     A member may also linked to a user.
     """
     user = models.ForeignKey(
